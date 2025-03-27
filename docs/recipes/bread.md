@@ -4,16 +4,16 @@
 
 ```mermaid
 graph TD
-    FLOUR(<img src="/assets/images/flour.webp" width="50"/>)
-    OVEN(<img src="/assets/images/oven.webp" width="50"/>)
-    BREAD(<img src="/assets/images/bread.webp" width="50"/>)
+    FLOUR(<img src="../../assets/images/flour.webp" width="50"/>)
+    OVEN(<img src="../../assets/images/oven.webp" width="50"/>)
+    BREAD(<img src="../../assets/images/bread.webp" width="50"/>)
 
     FLOUR ==> OVEN
     OVEN ==> BREAD
 
-    click FLOUR "/flour"
-    click OVEN "/oven"
-    click BREAD "/bread"
+    click FLOUR "../flour"
+    click OVEN "../oven"
+    click BREAD "../bread"
 ```
 
 ## Used to craft  

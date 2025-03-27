@@ -4,16 +4,16 @@
 
 ```mermaid
 graph TD
-    MILK(<img src="/assets/images/milk.webp" width="50"/>)
-    POT(<img src="/assets/images/pot.webp" width="50"/>)
-    CHEESE(<img src="/assets/images/cheese.webp" width="50"/>)
+    MILK(<img src="../../assets/images/milk.webp" width="50"/>)
+    POT(<img src="../../assets/images/pot.webp" width="50"/>)
+    CHEESE(<img src="../../assets/images/cheese.webp" width="50"/>)
 
     MILK ==> POT
     POT ==> CHEESE
 
-    click MILK "/milk"
-    click POT "/pot"
-    click CHEESE "/cheese"
+    click MILK "../milk"
+    click POT "../pot"
+    click CHEESE "../cheese"
 ```
 
 ## Used to craft  

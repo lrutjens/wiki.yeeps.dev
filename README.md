@@ -1,0 +1,1 @@
+Will properly update readme later, for now if you want to help or have questions, join our discord here https://discord.gg/P9nqvfTrQB

@@ -1,0 +1,161 @@
+site_name: Yeeps Wiki
+site_url: https://lrutjens.github.io
+theme:
+  name: material
+  logo: assets/logo.png
+  favicon: assets/logo.png
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      tertiary: green
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+  features:
+    - navigation.top
+    - navigation.footer
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.indexes
+    - navigation.tabs
+    - content.code.annotate
+    - content.tooltips
+    - content.tabs
+    - search.suggest
+    - search.share
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.blocks.caption
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - md_in_html
+  - toc
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - abbr
+  - attr_list
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+plugins:
+  - search
+nav:
+  - Introduction: index.md
+  - Recipes:
+    - Bacon: recipes/bacon.md
+    - BLT : recipes/blt.md
+    - Bagel: recipes/bagel.md
+    - Baked Potato: recipes/bakedPotato.md
+    - Batter: recipes/batter.md
+    - Beef: recipes/beef.md
+    - Beef Stew: recipes/beefStew.md
+    #- Berries: berries.md
+    #- Bone: bone.md
+    - Bread: recipes/bread.md
+    - Breakfast: recipes/breakfast.md
+    - Burnt Garbage: recipes/burntGarbage.md
+    - Cake: recipes/cake.md
+    - Cheese: recipes/cheese.md
+    - Cheeseburger: recipes/cheeseburger.md
+    - Cheese Sandwich: recipes/cheeseSandwich.md
+    - Chicken: recipes/chicken.md
+    - Chicken Noodle Soup: recipes/chickenNoodleSoup.md
+    - Chicken Parmesan: recipes/chickenParm.md
+    - Chicken Tender: recipes/chickenTender.md
+    - Cookie: recipes/cookie.md
+    - Crepe: recipes/crepe.md
+    - Donut: recipes/donut.md
+    - Dumpling: recipes/dumpling.md
+    - Egg: recipes/egg.md
+    #- Eyeball: eyeball.md
+    - Fancy Mac & Cheese: recipes/fancyMacAndCheese.md
+    #- Feather: feather.md
+    - Flour: recipes/flour.md
+    #- Purple Flower: flowerEvil.md
+    #- Yellow Flower: flowerGood.md
+    - French Fries: recipes/frenchFry.md
+    - French Toast: recipes/frenchToast.md
+    - Fried Chicken: recipes/friedChicken.md
+    - Fried Chicken Sandwich: recipes/friedChickenSandwich.md
+    - Fried Egg: recipes/friedEgg.md
+    - Fried Egg Sandwich: recipes/friedEggSandwich.md
+    - Fruit: recipes/fruit.md
+    - Fruit Salad: recipes/fruitSalad.md
+    - Garbage: recipes/garbage.md
+    - Grilled Cheese Sandwich: recipes/grilledCheeseSandwich.md
+    - Hamburger: recipes/hamburger.md
+    - Hawaiian Pizza: recipes/hawaiianPizza.md
+    - Hotdog: recipes/hotdog.md
+    - Jelly: recipes/jelly.md
+    - Jelly Sandwich: recipes/jellySandwich.md
+    - Lasagna: recipes/lasagna.md
+    #- Leaf: leaf.md
+    - Lettuce: recipes/lettuce.md
+    - Mac & Cheese: recipes/macAndCheese.md
+    - Milk: recipes/milk.md
+    #- Mushroom: mushroom.md
+    #- Tall Mushroom: mushroomLong.md
+    - Noodles: recipes/noodles.md
+    - Pancakes: recipes/pancakes.md
+    - Pepperoni Pizza: recipes/pepperoniPizza.md
+    - Pie: recipes/pie.md
+    - Pizza: recipes/pizza.md
+    - Pizza Bagel: recipes/pizzaBagel.md
+    - Potato: recipes/potato.md
+    - Quesadilla: recipes/quesadilla.md
+    - Ramen: recipes/ramen.md
+    - Salad: recipes/salad.md
+    - Sausage: recipes/sausage.md
+    - Spaghetti & Meatballs: recipes/spaghettiAndMeatballs.md
+    - Steak: recipes/steak.md
+    - Steak Sandwich: recipes/steakSub.md
+    - Stir Fry: recipes/stirFry.md
+    - Sugar: recipes/sugar.md
+    - Syrup: recipes/syrup.md
+    - Beef Taco: recipes/tacoBeef.md
+    - Chicken Taco: recipes/tacoChicken.md
+    #- Tail: tail.md
+    #- Tentacle: tentacle.md
+    - Tomato: recipes/tomato.md
+    - Tomato Soup: recipes/tomatoSoup.md
+    - Tortilla: recipes/tortilla.md
+    - Oven: recipes/oven.md
+    - Pot: recipes/pot.md
+extra:
+  consent:
+    title: Cookie consent
+    description: We use cookies to recognize your repeated visits and preferences, as well as to measure the effectiveness of our documentation and whether users find what they're searching for. With your consent, you're helping us tomake our documentation better.
+  analytics:
+    provider: google
+    property: G-EW22YE9GT6
+  generator: false
+  social:
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/P9nqvfTrQB
+      name: Yeeps Wiki Team
+extra_css:
+  - stylesheets/extra.css

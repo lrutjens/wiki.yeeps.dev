@@ -1,0 +1,59 @@
+<figure markdown="1">
+# Pizza Bagel
+![pizzaBagel](../assets/images/pizzaBagel.webp){ .item-image }
+
+```mermaid
+graph TD
+    MILK1(<img src="/assets/images/milk.webp" width="50"/>)
+    POT1(<img src="/assets/images/pot.webp" width="50"/>)
+    CHEESE(<img src="/assets/images/cheese.webp" width="50"/>)
+    FLOUR1(<img src="/assets/images/flour.webp" width="50"/>)
+    TOMATO(<img src="/assets/images/tomato.webp" width="50"/>)
+    OVEN1(<img src="/assets/images/oven.webp" width="50"/>)
+    PIZZA(<img src="/assets/images/pizza.webp" width="50"/>)
+    FLOUR2(<img src="/assets/images/flour.webp" width="50"/>)
+    MILK2(<img src="/assets/images/milk.webp" width="50"/>)
+    EGGS(<img src="/assets/images/egg.webp" width="50"/>)
+    POT2(<img src="/assets/images/pot.webp" width="50"/>)
+    BATTER(<img src="/assets/images/batter.webp" width="50"/>)
+    OVEN2(<img src="/assets/images/oven.webp" width="50"/>)
+    BAGEL(<img src="/assets/images/bagel.webp" width="50"/>)
+    POT3(<img src="/assets/images/pot.webp" width="50"/>)
+    PIZZABAGEL(<img src="/assets/images/pizzaBagel.webp" width="50"/>)
+
+    MILK1 ==> POT1
+    POT1 ==> CHEESE
+    FLOUR1 ==> OVEN1
+    CHEESE ==> OVEN1
+    TOMATO ==> OVEN1
+    OVEN1 ==> PIZZA
+    FLOUR2 ==> POT2
+    MILK2 ==> POT2
+    EGGS ==> POT2
+    POT2 ==> BATTER
+    BATTER ==> OVEN2
+    OVEN2 ==> BAGEL
+    BAGEL ==> POT3
+    PIZZA ==> POT3
+    POT3 ==> PIZZABAGEL
+
+    click MILK1 "/MILK1"
+    click POT1 "/POT1"
+    click CHEESE "/cheese"
+    click FLOUR1 "/FLOUR1"
+    click TOMATO "/tomato"
+    click OVEN1 "/OVEN1"
+    click PIZZA "/pizza"
+    click FLOUR2 "/flour"
+    click EGGS "/egg"
+    click MILK2 "/milk"
+    click POT2 "/pot"
+    click BATTER "/batter"
+    click OVEN2 "/oven"
+    click BAGEL "/bagel"
+    click POT3 "/pot"
+    click PIZZABAGEL "/pizzaBagel"
+
+```
+
+</figure>

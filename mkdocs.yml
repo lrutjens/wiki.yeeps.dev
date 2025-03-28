@@ -1,9 +1,12 @@
 site_name: Yeeps Wiki
 site_url: https://lrutjens.github.io
+repo_name: lrutjens/yeeps-wiki
 theme:
   name: material
   logo: assets/logo.png
   favicon: assets/logo.png
+  icon:
+    repo: fontawesome/brands/github
   palette:
     - media: "(prefers-color-scheme)"
       toggle:
@@ -63,6 +66,12 @@ markdown_extensions:
       alternate_style: true
 plugins:
   - search
+  - git-committers:
+      repository: lrutjens/yeeps-wiki
+      branch: master
+      enabled: !ENV [CI, false]
+  - git-revision-date-localized:
+      enable_creation_date: true
 nav:
   - Introduction: index.md
   - Cooking: 

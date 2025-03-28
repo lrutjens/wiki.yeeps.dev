@@ -36,6 +36,8 @@ To run the wiki locally:
    pip install mkdocs-material
    pip install pymdown-extensions
    pip install mkdocs-mermaid2-plugin
+   pip install mkdocs-git-revision-date-localized-plugin
+   pip install mkdocs-git-committers-plugin-2
    ```
 2. Clone this repository:
    ```sh

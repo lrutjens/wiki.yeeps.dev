@@ -29,7 +29,7 @@ theme:
     - navigation.footer
     - navigation.instant
     - navigation.instant.prefetch
-    - navigation.indexes
+    #- navigation.indexes
     - navigation.tabs
     - content.code.annotate
     - content.tooltips
@@ -65,86 +65,90 @@ plugins:
   - search
 nav:
   - Introduction: index.md
-  - Recipes:
-    - Bacon: recipes/bacon.md
-    - BLT : recipes/blt.md
-    - Bagel: recipes/bagel.md
-    - Baked Potato: recipes/bakedPotato.md
-    - Batter: recipes/batter.md
-    - Beef: recipes/beef.md
-    - Beef Stew: recipes/beefStew.md
-    #- Berries: berries.md
-    #- Bone: bone.md
-    - Bread: recipes/bread.md
-    - Breakfast: recipes/breakfast.md
-    - Burnt Garbage: recipes/burntGarbage.md
-    - Cake: recipes/cake.md
-    - Cheese: recipes/cheese.md
-    - Cheeseburger: recipes/cheeseburger.md
-    - Cheese Sandwich: recipes/cheeseSandwich.md
-    - Chicken: recipes/chicken.md
-    - Chicken Noodle Soup: recipes/chickenNoodleSoup.md
-    - Chicken Parmesan: recipes/chickenParm.md
-    - Chicken Tender: recipes/chickenTender.md
-    - Cookie: recipes/cookie.md
-    - Crepe: recipes/crepe.md
-    - Donut: recipes/donut.md
-    - Dumpling: recipes/dumpling.md
-    - Egg: recipes/egg.md
-    #- Eyeball: eyeball.md
-    - Fancy Mac & Cheese: recipes/fancyMacAndCheese.md
-    #- Feather: feather.md
-    - Flour: recipes/flour.md
-    #- Purple Flower: flowerEvil.md
-    #- Yellow Flower: flowerGood.md
-    - French Fries: recipes/frenchFry.md
-    - French Toast: recipes/frenchToast.md
-    - Fried Chicken: recipes/friedChicken.md
-    - Fried Chicken Sandwich: recipes/friedChickenSandwich.md
-    - Fried Egg: recipes/friedEgg.md
-    - Fried Egg Sandwich: recipes/friedEggSandwich.md
-    - Fruit: recipes/fruit.md
-    - Fruit Salad: recipes/fruitSalad.md
-    - Garbage: recipes/garbage.md
-    - Grilled Cheese Sandwich: recipes/grilledCheeseSandwich.md
-    - Hamburger: recipes/hamburger.md
-    - Hawaiian Pizza: recipes/hawaiianPizza.md
-    - Hotdog: recipes/hotdog.md
-    - Jelly: recipes/jelly.md
-    - Jelly Sandwich: recipes/jellySandwich.md
-    - Lasagna: recipes/lasagna.md
-    #- Leaf: leaf.md
-    - Lettuce: recipes/lettuce.md
-    - Mac & Cheese: recipes/macAndCheese.md
-    - Milk: recipes/milk.md
-    #- Mushroom: mushroom.md
-    #- Tall Mushroom: mushroomLong.md
-    - Noodles: recipes/noodles.md
-    - Pancakes: recipes/pancakes.md
-    - Pepperoni Pizza: recipes/pepperoniPizza.md
-    - Pie: recipes/pie.md
-    - Pizza: recipes/pizza.md
-    - Pizza Bagel: recipes/pizzaBagel.md
-    - Potato: recipes/potato.md
-    - Quesadilla: recipes/quesadilla.md
-    - Ramen: recipes/ramen.md
-    - Salad: recipes/salad.md
-    - Sausage: recipes/sausage.md
-    - Spaghetti & Meatballs: recipes/spaghettiAndMeatballs.md
-    - Steak: recipes/steak.md
-    - Steak Sandwich: recipes/steakSub.md
-    - Stir Fry: recipes/stirFry.md
-    - Sugar: recipes/sugar.md
-    - Syrup: recipes/syrup.md
-    - Beef Taco: recipes/tacoBeef.md
-    - Chicken Taco: recipes/tacoChicken.md
-    #- Tail: tail.md
-    #- Tentacle: tentacle.md
-    - Tomato: recipes/tomato.md
-    - Tomato Soup: recipes/tomatoSoup.md
-    - Tortilla: recipes/tortilla.md
-    - Oven: recipes/oven.md
-    - Pot: recipes/pot.md
+  - Cooking: 
+    - Recipe List: cooking/recipeList.md
+    - Bacon: cooking/bacon.md
+    - Bagel: cooking/bagel.md
+    - BLT : cooking/blt.md
+    - Baked Potato: cooking/bakedPotato.md
+    - Batter: cooking/batter.md
+    - Beef: cooking/beef.md
+    - Beef Stew: cooking/beefStew.md
+    - Bread: cooking/bread.md
+    - Breakfast: cooking/breakfast.md
+    - Burnt Garbage: cooking/burntGarbage.md
+    - Cake: cooking/cake.md
+    - Cheese: cooking/cheese.md
+    - Cheeseburger: cooking/cheeseburger.md
+    - Cheese Sandwich: cooking/cheeseSandwich.md
+    - Chicken: cooking/chicken.md
+    - Chicken Noodle Soup: cooking/chickenNoodleSoup.md
+    - Chicken Parmesan: cooking/chickenParm.md
+    - Chicken Tender: cooking/chickenTender.md
+    - Cookie: cooking/cookie.md
+    - Crepe: cooking/crepe.md
+    - Donut: cooking/donut.md
+    - Dumpling: cooking/dumpling.md
+    - Egg: cooking/egg.md
+    - Fancy Mac & Cheese: cooking/fancyMacAndCheese.md
+    - Flour: cooking/flour.md
+    - French Fries: cooking/frenchFry.md
+    - French Toast: cooking/frenchToast.md
+    - Fried Chicken: cooking/friedChicken.md
+    - Fried Chicken Sandwich: cooking/friedChickenSandwich.md
+    - Fried Egg: cooking/friedEgg.md
+    - Fried Egg Sandwich: cooking/friedEggSandwich.md
+    - Fruit: cooking/fruit.md
+    - Fruit Salad: cooking/fruitSalad.md
+    - Garbage: cooking/garbage.md
+    - Grilled Cheese Sandwich: cooking/grilledCheeseSandwich.md
+    - Hamburger: cooking/hamburger.md
+    - Hawaiian Pizza: cooking/hawaiianPizza.md
+    - Hotdog: cooking/hotdog.md
+    - Jelly: cooking/jelly.md
+    - Jelly Sandwich: cooking/jellySandwich.md
+    - Lasagna: cooking/lasagna.md
+    - Lettuce: cooking/lettuce.md
+    - Mac & Cheese: cooking/macAndCheese.md
+    - Milk: cooking/milk.md
+    - Noodles: cooking/noodles.md
+    - Pancakes: cooking/pancakes.md
+    - Pepperoni Pizza: cooking/pepperoniPizza.md
+    - Pie: cooking/pie.md
+    - Pizza: cooking/pizza.md
+    - Pizza Bagel: cooking/pizzaBagel.md
+    - Potato: cooking/potato.md
+    - Quesadilla: cooking/quesadilla.md
+    - Ramen: cooking/ramen.md
+    - Salad: cooking/salad.md
+    - Sausage: cooking/sausage.md
+    - Spaghetti & Meatballs: cooking/spaghettiAndMeatballs.md
+    - Steak: cooking/steak.md
+    - Steak Sandwich: cooking/steakSub.md
+    - Stir Fry: cooking/stirFry.md
+    - Sugar: cooking/sugar.md
+    - Syrup: cooking/syrup.md
+    - Beef Taco: cooking/tacoBeef.md
+    - Chicken Taco: cooking/tacoChicken.md
+    - Tomato: cooking/tomato.md
+    - Tomato Soup: cooking/tomatoSoup.md
+    - Tortilla: cooking/tortilla.md
+    - Oven: cooking/oven.md
+    - Pot: cooking/pot.md
+  - Brewing:
+    - Ingredients: brewing/ingredients.md
+    - Berries: brewing/berries.md
+    - Bone: brewing/bone.md
+    - Eyeball: brewing/eyeball.md
+    - Feather: brewing/feather.md
+    - Purple Flower: brewing/flowerPurple.md
+    - Yellow Flower: brewing/flowerYellow.md
+    - Leaf: brewing/leaf.md
+    - Mushroom: brewing/mushroom.md
+    - Tall Mushroom: brewing/mushroomLong.md
+    - Tail: brewing/tail.md
+    - Tentacle: brewing/tentacle.md
+
 extra:
   consent:
     title: Cookie consent

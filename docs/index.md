@@ -1,8 +1,9 @@
 ---
 search:
   exclude: true
+hide:
+  - toc
 ---
-
 <figure markdown="1">
 # :warning: Under Construction :warning:
 

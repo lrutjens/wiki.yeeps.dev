@@ -5,7 +5,8 @@ Welcome to the new Yeeps: Hide and Seek wiki! We're using **Material for MkDocs*
 ## Status Overview
 We're still setting things up, so here's a quick look at what's done and what still needs work:
 
-- **cooking** – In progress ⚠️
+- **Cooking** – In progress ⚠️
+- **Brewing** - In progress ⚠️
 - **Blocks** – Not started ❌
 - **Mechanics** – Not started ❌
 - **Gamemodes** – Not started ❌

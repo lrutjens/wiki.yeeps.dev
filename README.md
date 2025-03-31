@@ -5,16 +5,19 @@ Welcome to the new Yeeps: Hide and Seek wiki! We're using **Material for MkDocs*
 ## Status Overview
 We're still setting things up, so here's a quick look at what's done and what still needs work:
 
-- **Cooking** – In progress ⚠️
-- **Brewing** - In progress ⚠️
-- **Blocks** – Not started ❌
-- **Mechanics** – Not started ❌
-- **Gamemodes** – Not started ❌
-- **Buttcoin Stashes** – Not started ❌
-- **Promocodes** – Not started ❌
-- **Update History** – Not started ❌
-- **All Items** – Not started ❌
-- **Tech Webs** – Not started ❌
+| Category             | Status        |
+|----------------------|---------------|
+| **Cooking**          | In progress ⚠️ |
+| **Brewing**          | Completed ✅   |
+| **Blocks**           | Not started ❌ |
+| **Mechanics**        | Not started ❌ |
+| **Gamemodes**        | Not started ❌ |
+| **Buttcoin Stashes** | Not started ❌ |
+| **Promocodes**       | Not started ❌ |
+| **Update History**   | Not started ❌ |
+| **All Items**        | Not started ❌ |
+| **Tech Webs**        | Not started ❌ |
+
 
 ## How to Contribute
 If you'd like to help out, feel free to submit edits or add missing information! You can also join the discord [here](https://discord.gg/P9nqvfTrQB)!
@@ -34,11 +37,11 @@ To run the wiki locally:
 
 1. Install MkDocs Material, and required plugins:
    ```sh
-   pip install mkdocs-material
-   pip install pymdown-extensions
-   pip install mkdocs-mermaid2-plugin
-   pip install mkdocs-git-revision-date-localized-plugin
-   pip install mkdocs-git-committers-plugin-2
+   pip install mkdocs-material \
+   pymdown-extensions \
+   mkdocs-mermaid2-plugin \
+   mkdocs-git-revision-date-localized-plugin \
+   mkdocs-git-committers-plugin-2
    ```
 2. Clone this repository:
    ```sh

@@ -30,9 +30,10 @@ theme:
   features:
     - navigation.top
     - navigation.footer
-    - navigation.instant
-    - navigation.instant.prefetch
-    #- navigation.indexes
+    - navigation.indexes
+    - navigation.prune
+    - navigation.expand
+    - navigation.sections
     - navigation.tabs
     - content.code.annotate
     - content.tooltips
@@ -46,6 +47,7 @@ markdown_extensions:
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.blocks.caption
+  - tables
   - attr_list
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
@@ -72,6 +74,7 @@ plugins:
       enabled: !ENV [CI, false]
   - git-revision-date-localized:
       enable_creation_date: true
+      enabled: !ENV [CI, false]
 nav:
   - Introduction: index.md
   - Cooking: 
@@ -145,20 +148,47 @@ nav:
     - Oven: cooking/oven.md
     - Pot: cooking/pot.md
   - Brewing:
-    - Ingredients: brewing/ingredients.md
-    - Berries: brewing/berries.md
-    - Bone: brewing/bone.md
-    - Eyeball: brewing/eyeball.md
-    - Feather: brewing/feather.md
-    - Purple Flower: brewing/flowerPurple.md
-    - Yellow Flower: brewing/flowerYellow.md
-    - Leaf: brewing/leaf.md
-    - Mushroom: brewing/mushroom.md
-    - Tall Mushroom: brewing/mushroomLong.md
-    - Tail: brewing/tail.md
-    - Tentacle: brewing/tentacle.md
+    - Overview: brewing/overview.md
+    - Cauldron: brewing/cauldron.md
+    - Potion: brewing/potion.md
+    - Potions: 
+      - Blindness: brewing/blindness.md
+      - Giant: brewing/giant.md
+      - Haste: brewing/haste.md
+      - Healing: brewing/healing.md
+      - Hollow: brewing/hollow.md
+      - Invisibility: brewing/invisibility.md
+      - Levitation: brewing/levitation.md
+      - Love: brewing/love.md
+      - Neutralizer: brewing/neutralizer.md
+      - Night Vision: brewing/nightVision.md
+      - Poison: brewing/poison.md
+      - Slow Falling: brewing/slowFall.md
+      - Slowness: brewing/slowness.md
+      - Speed: brewing/speed.md
+      - Strength: brewing/strength.md
+      - Tiny: brewing/tiny.md
+      - Visibility: brewing/visibility.md
+      - Weakness: brewing/weakness.md
+      - Failed Potion: brewing/failedPotion.md
+    - Ingredients:
+      - Speed Berries: brewing/berries.md
+      - Biggie Bone: brewing/bone.md
+      - Magic Brewshroom: brewing/brewshroom.md
+      - Tall Magic Brewshroom: brewing/tallBrewshroom.md
+      - Spooky Eyeball: brewing/eyeball.md
+      - Goodie Flower: brewing/flowerYellow.md
+      - Corrupted Flower: brewing/flowerPurple.md
+      - Floaty Feather: brewing/feather.md
+      - Healthy Leaf: brewing/leaf.md
+      - Tail: brewing/tail.md
+      - Buff Tentacle: brewing/tentacle.md
 
 extra:
+  mermaid:
+    theme: default
+    flowchart:
+      htmlLabels: true
   consent:
     title: Cookie consent
     description: We use cookies to recognize your repeated visits and preferences, as well as to measure the effectiveness of our documentation and whether users find what they're searching for. With your consent, you're helping us tomake our documentation better.

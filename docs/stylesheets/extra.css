@@ -16,9 +16,27 @@
     width: 25%;
 }
 
+.janky-fix {
+    height: 1px !important;
+    width: 25rem !important;
+}
+
+.emoji-item {
+    --md-icon-size: {px2em(256px)};
+}
+
+.flip-horizontal {
+    transform: scaleX(-1);
+}
+
+.top-spacing {
+    margin-top: 15px !important;
+}
+
 .recipe-item{
     width: 25%;
 }
+
 
 @media (max-width: 500px) {
     .item-image {
@@ -27,4 +45,8 @@
         margin-right: -10px !important;
         width: 350px !important;
     }
+}
+
+.hidden {
+    visibility: hidden !important;
 }

@@ -1,5 +1,5 @@
 site_name: Yeeps Wiki
-site_url: https://lrutjens.github.io
+site_url: https://wiki.yeeps.dev
 repo_name: lrutjens/yeeps-wiki
 theme:
   name: material
@@ -71,10 +71,10 @@ plugins:
   - git-committers:
       repository: lrutjens/yeeps-wiki
       branch: master
-      enabled: true #!ENV [CI, false]
+      enabled: !ENV [CI, false]
   - git-revision-date-localized:
       enable_creation_date: true
-      enabled: true #!ENV [CI, false]
+      enabled: !ENV [CI, false]
 nav:
   - Introduction: index.md
   - Cooking: 

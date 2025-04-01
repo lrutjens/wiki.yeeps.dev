@@ -71,10 +71,10 @@ plugins:
   - git-committers:
       repository: lrutjens/yeeps-wiki
       branch: master
-      enabled: !ENV [CI, false]
+      enabled: true #!ENV [CI, false]
   - git-revision-date-localized:
       enable_creation_date: true
-      enabled: !ENV [CI, false]
+      enabled: true #!ENV [CI, false]
 nav:
   - Introduction: index.md
   - Cooking: 

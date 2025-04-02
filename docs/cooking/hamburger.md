@@ -32,7 +32,7 @@ graph TD
     click BEEF "../beef"
     click POT1 "../pot"
     click STEAK "../steak"
-    click LETTUCE "../lettuce
+    click LETTUCE "../lettuce"
     click BREAD "../bread"
     click POT2 "../pot"
     click HAMBURGER "../hamburger"

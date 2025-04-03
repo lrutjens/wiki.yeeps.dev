@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         env:
-          GITHUB_TOKEN: ${{ github.token }}
+          MKDOCS_GIT_COMMITTERS_APIKEY: ${{ github.token }}
         with:
           fetch-depth: 0
           sparse-checkout: |

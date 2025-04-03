@@ -72,7 +72,7 @@ plugins:
       repository: lrutjens/yeeps-wiki
       branch: master
       enabled: !ENV [CI, false]
-      token: !ENV [GITHUB_TOKEN, false]
+      token: !ENV [GITHUB_TOKEN]
   - git-revision-date-localized:
       enable_creation_date: true
       enabled: !ENV [CI, false]

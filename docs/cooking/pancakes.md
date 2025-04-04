@@ -1,6 +1,7 @@
 ---
 hide:
   - toc
+description: How to make pancakes in yeeps hide and seek
 ---
 <figure markdown="1">
 # Pancakes

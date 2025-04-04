@@ -1,6 +1,7 @@
 ---
 hide:
   - toc
+description: How to make french fries in yeeps hide and seek
 ---
 <figure markdown="1">
 # French Fries

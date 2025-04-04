@@ -1,6 +1,7 @@
 ---
 hide:
   - toc
+description: How to make a cheeeseburger in yeeps hide and seek
 ---
 <figure markdown="1">
 # Cheeseburger

@@ -1,6 +1,7 @@
 ---
 hide:
   - toc
+description: How to make the spinnign/haste potion in yeeps hide and seek
 ---
 <figure markdown="1">
 # Haste

@@ -1,6 +1,7 @@
 ---
 hide:
   - toc
+description: How to make cheese chicken/chicken parmesan in yeeps hide and seek
 ---
 <figure markdown="1">
 # chicken Parmesan

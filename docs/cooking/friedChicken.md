@@ -1,6 +1,7 @@
 ---
 hide:
   - toc
+description: How to make fried chicken/a chicken leg in yeeps hide and seek
 ---
 <figure markdown="1">
 # Fried Chicken
@@ -19,5 +20,11 @@ graph TD
     click POT "../pot"
     click FRIEDCHICKEN "../friedChicken"
 ```
+
+## Used to craft  
+
+<div class="grid cards" markdown>
+- [Fried Chicken Sandwich ![](../assets/images/cooking/friedChickenSandwich.webp){ width="100" }](../cooking/friedChickenSandwich.md)   
+</div>
 
 </figure>

@@ -1,6 +1,7 @@
 ---
 hide:
   - toc
+description: How to make a chicken wing/tender in yeeps hide and seek
 ---
 <figure markdown="1">
 # Chicken Tender
@@ -13,7 +14,7 @@ graph TD
     MILK(<img src="../../assets/images/cooking/milk.webp" width="50"/>)
     POT1(<img src="../../assets/images/cooking/pot.webp" width="50"/>)
     BATTER(<img src="../../assets/images/cooking/batter.webp" width="50"/>)
-    CHIKEN(<img src="../../assets/images/cooking/chicken.webp" width="50"/>)
+    CHICKEN(<img src="../../assets/images/cooking/chicken.webp" width="50"/>)
     POT2(<img src="../../assets/images/cooking/pot.webp" width="50"/>)
     CHICKENTENDER(<img src="../../assets/images/cooking/chickenTender.webp" width="50"/>)
 

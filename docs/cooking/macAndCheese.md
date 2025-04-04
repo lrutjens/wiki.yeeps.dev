@@ -1,6 +1,7 @@
 ---
 hide:
   - toc
+description: How to make mac and cheese in yeeps hide and seek
 ---
 <figure markdown="1">
 # Mac & Cheese
@@ -31,5 +32,11 @@ graph TD
     click POT2 "../pot"
     click MACANDCHEESE "../macAndCheese"
 ```
+
+## Used to craft
+
+<div class="grid cards" markdown>
+- [Fancy Mac & Cheese ![](../assets/images/cooking/fancyMacAndCheese.webp){ width="100" }](../cooking/fancyMacAndCheese.md)
+</div>
 
 </figure>

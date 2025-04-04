@@ -1,6 +1,7 @@
 ---
 hide:
   - toc
+description: How to make a jelly sandwich in yeeps hide and seek
 ---
 <figure markdown="1">
 # Jelly Sandwich

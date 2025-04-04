@@ -1,12 +1,10 @@
 ---
 hide:
   - toc
+description: How to cook everying in yeeps hide and seek, all the recipes in yeeps hide and seek
 ---
 
 <figure markdown="1">
-
-
-
 
 <div class="grid cards" markdown>
 - [Bacon ![](../assets/images/cooking/bacon.webp){ .recipe-item }](../cooking/bacon.md)  

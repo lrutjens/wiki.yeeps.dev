@@ -1,6 +1,7 @@
 ---
 hide:
   - toc
+description: How to make a crepe in yeeps hide and seek
 ---
 <figure markdown="1">
 # Crepe
@@ -29,8 +30,8 @@ graph TD
     SUGAR ==> OVEN
     OVEN ==> JELLY
     BATTER ==> POT2
-    JELLY ==> POT2
     FRUIT2 ==> POT2
+    JELLY ==> POT2
     POT2 ==> CREPE
 
     click FLOUR "../flour"

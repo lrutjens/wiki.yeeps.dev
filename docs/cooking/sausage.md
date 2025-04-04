@@ -1,6 +1,7 @@
 ---
 hide:
   - toc
+description: How to make a sausage in yeeps hide and seek
 ---
 <figure markdown="1">
 # Sausage
@@ -19,5 +20,12 @@ graph TD
     click OVEN "../oven"
     click SAUSAGE "../sausage"
 ```
+
+## Used to craft
+
+<div class="grid cards" markdown>
+- [Hotdog ![](../assets/images/cooking/hotdog.webp){ width="100" }](../cooking/hotdog.md)
+- [Pepperoni Pizza ![](../assets/images/cooking/pepperoniPizza.webp){ width="100" }](../cooking/pepperoniPizza.md)
+</div>
 
 </figure>

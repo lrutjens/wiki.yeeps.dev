@@ -1,6 +1,7 @@
 ---
 hide:
   - toc
+description: How to make all potions in yeeps hide and seek, different potions in yeeps hide and seek
 ---
 
 # Brewing Overview

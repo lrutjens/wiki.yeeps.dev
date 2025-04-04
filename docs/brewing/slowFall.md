@@ -1,6 +1,7 @@
 ---
 hide:
   - toc
+description: How to make te slow falling potion in yeeps hide and seek
 ---
 <figure markdown="1">
 # Slow Falling

@@ -1,12 +1,13 @@
 ---
 hide:
   - toc
+description: How to make a cookie in yeeps hide and seek
 ---
 <figure markdown="1">
 # Cookie
 ![cookie](../assets/images/cooking/cookie.webp){ .item-image }
 
-```mermiad
+```mermaid
 graph TD
     FLOUR(<img src="../../assets/images/cooking/flour.webp" width="50"/>)
     EGGS(<img src="../../assets/images/cooking/egg.webp" width="50"/>)

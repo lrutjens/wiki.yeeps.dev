@@ -1,6 +1,7 @@
 ---
 hide:
   - toc
+description: What does the bone make in yeeps hide and seek
 ---
 <figure markdown="1">
 # Biggie Bone

@@ -1,6 +1,7 @@
 ---
 hide:
   - toc
+description: What does the leaf do in yeeps hide and seek
 ---
 <figure markdown="1">
 # Healthy Leaf

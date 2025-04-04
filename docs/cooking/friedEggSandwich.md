@@ -1,6 +1,7 @@
 ---
 hide:
   - toc
+description: How to make a fried egg sandwich in yeeps hide and seek
 ---
 <figure markdown="1">
 # Fried Egg Sandwich

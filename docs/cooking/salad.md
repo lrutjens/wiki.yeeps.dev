@@ -1,6 +1,7 @@
 ---
 hide:
   - toc
+description: How to make a salad in yeeps hide and seek
 ---
 <figure markdown="1">
 # Salad
@@ -22,5 +23,11 @@ graph TD
     click POT "../pot"
     click SALAD "../salad"
 ```
+
+## Used to craft
+
+<div class="grid cards" markdown>
+- [BLT ![](../assets/images/cooking/blt.webp){ width="100" }](../cooking/blt.md)
+</div>
 
 </figure>

@@ -1,6 +1,7 @@
 ---
 hide:
   - toc
+description: What is a failed potion in yeeps hide and seek
 ---
 <figure markdown="1">
 # Failed Potion

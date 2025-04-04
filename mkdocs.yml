@@ -1,10 +1,12 @@
 site_name: Yeeps Wiki
 site_url: https://wiki.yeeps.dev
 repo_name: lrutjens/yeeps-wiki
+edit_uri: https://github.com/lrutjens/wiki.yeeps.dev/blob/master/docs/
 theme:
   name: material
   logo: assets/logo.png
   favicon: assets/logo.png
+  custom_dir: overrides
   icon:
     repo: fontawesome/brands/github
   palette:
@@ -28,6 +30,7 @@ theme:
         icon: material/brightness-4
         name: Switch to system preference
   features:
+    - content.action.edit
     - navigation.top
     - navigation.footer
     - navigation.indexes
@@ -48,6 +51,7 @@ markdown_extensions:
           format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.blocks.caption
   - tables
+  - meta
   - attr_list
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
@@ -137,7 +141,7 @@ nav:
     - Sausage: cooking/sausage.md
     - Spaghetti & Meatballs: cooking/spaghettiAndMeatballs.md
     - Steak: cooking/steak.md
-    - Steak Sandwich: cooking/steakSub.md
+    - Steak Sub: cooking/steakSub.md
     - Stir Fry: cooking/stirFry.md
     - Sugar: cooking/sugar.md
     - Syrup: cooking/syrup.md
@@ -196,7 +200,9 @@ extra:
   analytics:
     provider: google
     property: G-EW22YE9GT6
+    enabled: !ENV [CI, false]
   generator: false
+  manifest: manifest.webmanifest
   social:
     - icon: fontawesome/brands/discord
       link: https://discord.gg/P9nqvfTrQB

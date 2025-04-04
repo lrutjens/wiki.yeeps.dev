@@ -3,6 +3,9 @@ search:
   exclude: true
 hide:
   - toc
+title: Yeeps Wiki
+
+description: The new and improved wiki for the game Yeeps Hide and Seek. The new yeeps wiki is on wiki.yeeps.dev. It has cooking, brewing, blocks, patch notes.
 ---
 <figure markdown="1">
 # :warning: Under Construction :warning:

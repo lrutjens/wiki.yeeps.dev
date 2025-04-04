@@ -1,6 +1,7 @@
 ---
 hide:
   - toc
+description: How to make the love potion in yeeps hide and seek
 ---
 <figure markdown="1">
 # Love

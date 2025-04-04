@@ -1,6 +1,7 @@
 ---
 hide:
   - toc
+description: How to make the tiny/small potion in yeeps hide and seek
 ---
 <figure markdown="1">
 # Tiny

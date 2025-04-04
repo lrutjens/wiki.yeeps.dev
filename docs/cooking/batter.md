@@ -1,6 +1,7 @@
 ---
 hide:
   - toc
+description: How to make batter in yeeps hide and seek
 ---
 <figure markdown="1">
 # Batter

@@ -1,6 +1,7 @@
 ---
 hide:
   - toc
+description: How to make spaghetti and meatballs in yeeps hide and seek
 ---
 <figure markdown="1">
 # Spaghetti & Meatballs

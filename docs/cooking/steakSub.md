@@ -1,9 +1,10 @@
 ---
 hide:
   - toc
+description: How to make a steak sandwich/sub in yeeps hide and seek
 ---
 <figure markdown="1">
-# Steak Sandwich
+# Steak Sub
 ![steakSub](../assets/images/cooking/steakSub.webp){ .item-image }
 
 ```mermaid

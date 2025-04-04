@@ -1,6 +1,7 @@
 ---
 hide:
   - toc
+description: How to make a tortilla in yeeps hide and seek
 ---
 <figure markdown="1">
 # Tortilla
@@ -19,5 +20,13 @@ graph TD
     click POT "../pot"
     click TORTILLA "../tortilla"
 ```
+
+## Used to craft
+
+<div class="grid cards" markdown>
+- [Quesadilla ![](../assets/images/cooking/quesadilla.webp){ width="100" }](../cooking/quesadilla.md)
+- [Beef Taco ![](../assets/images/cooking/tacoBeef.webp){ width="100" }](../cooking/tacoBeef.md)
+- [Chicken Taco ![](../assets/images/cooking/tacoChicken.webp){ width="100" }](../cooking/tacoChicken.md)
+</div>
 
 </figure>

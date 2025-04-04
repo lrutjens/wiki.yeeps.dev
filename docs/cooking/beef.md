@@ -1,6 +1,7 @@
 ---
 hide:
   - toc
+description: What raw beef/steak is used for in yeeps hide and seek
 ---
 <figure markdown="1">
 # Beef

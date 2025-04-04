@@ -1,6 +1,7 @@
 ---
 hide:
   - toc
+description: How to make a pizza in yeeps hide and seek
 ---
 <figure markdown="1">
 # Pizza
@@ -33,5 +34,13 @@ graph TD
     click PIZZA "../pizza"
 
 ```
+
+## Used to craft
+
+<div class="grid cards" markdown>
+- [Hawaiian Pizza ![](../assets/images/cooking/hawaiianPizza.webp){ width="100" }](../cooking/hawaiianPizza.md)
+- [Pepperoni Pizza ![](../assets/images/cooking/pepperoniPizza.webp){ width="100" }](../cooking/pepperoniPizza.md)
+- [Pizza Bagel ![](../assets/images/cooking/pizzaBagel.webp){ width="100" }](../cooking/pizzaBagel.md)
+</div>
 
 </figure>

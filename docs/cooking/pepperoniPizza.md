@@ -1,6 +1,7 @@
 ---
 hide:
   - toc
+description: How to make pepperoni pizza in yeeps hide and seek
 ---
 <figure markdown="1">
 # Pepperoni Pizza

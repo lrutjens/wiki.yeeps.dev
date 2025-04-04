@@ -1,6 +1,7 @@
 ---
 hide:
   - toc
+description: How to make jelly in yeeps hide and seek
 ---
 <figure markdown="1">
 # Jelly
@@ -22,5 +23,12 @@ graph TD
     click OVEN "../oven"
     click JELLY "../jelly"
 ```
+
+## Used to craft  
+
+<div class="grid cards" markdown>
+- [Crepe ![](../assets/images/cooking/crepe.webp){ width="100" }](../cooking/crepe.md)   
+- [Jelly Sandwich ![](../assets/images/cooking/jellySandwich.webp){ width="100" }](../cooking/jellySandwich.md)   
+</div>
 
 </figure>

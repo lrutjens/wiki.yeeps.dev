@@ -1,6 +1,7 @@
 ---
 hide:
   - toc
+description: How to make a baked potato in yeeps hide and seek
 ---
 <figure markdown="1">
 # Baked Potato

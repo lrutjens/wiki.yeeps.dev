@@ -1,6 +1,7 @@
 ---
 hide:
   - toc
+description: How to make bread in yeeps hide and seek
 ---
 <figure markdown="1">
 # Bread

@@ -1,6 +1,7 @@
 ---
 hide:
   - toc
+description: How to make a hamburger in yeeps hide and seek
 ---
 <figure markdown="1">
 # Hamburger
@@ -38,6 +39,10 @@ graph TD
     click HAMBURGER "../hamburger"
 ```
 
+## Used to craft  
 
+<div class="grid cards" markdown>
+- [Cheeseburger ![](../assets/images/cooking/cheeseburger.webp){ width="100" }](../cooking/cheeseburger.md)   
+</div>
 
 </figure>

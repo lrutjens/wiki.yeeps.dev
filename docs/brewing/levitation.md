@@ -1,6 +1,7 @@
 ---
 hide:
   - toc
+description: How to make the floating/flying/levitation potion in yeeps hide and seek
 ---
 <figure markdown="1">
 # Levitation

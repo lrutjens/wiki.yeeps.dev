@@ -1,6 +1,7 @@
 ---
 hide:
   - toc
+description: How to make the visibility/outline/seeker potion in yeeps hide and seek
 ---
 <figure markdown="1">
 # Visibility

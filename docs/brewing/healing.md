@@ -1,6 +1,7 @@
 ---
 hide:
   - toc
+description: How to make the healing potion in yeeps hide and seek
 ---
 <figure markdown="1">
 # Healing

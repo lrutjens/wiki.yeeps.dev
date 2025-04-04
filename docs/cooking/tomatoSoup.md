@@ -1,6 +1,7 @@
 ---
 hide:
   - toc
+description: How to make tomato soup in yeeps hide and seek
 ---
 <figure markdown="1">
 # TomatoSoup

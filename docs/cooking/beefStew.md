@@ -1,6 +1,7 @@
 ---
 hide:
   - toc
+description: How to make beef stew in yeeps hide and seek
 ---
 <figure markdown="1">
 # Beef Stew

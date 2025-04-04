@@ -1,6 +1,7 @@
 ---
 hide:
   - toc
+description: How to make a steak in yeeps hide and seek
 ---
 <figure markdown="1">
 # Steak
@@ -19,5 +20,15 @@ graph TD
     click POT "../pot"
     click STEAK "../steak"
 ```
+
+## Used to craft
+
+<div class="grid cards" markdown>
+- [Beef Stew ![](../assets/images/cooking/beefStew.webp){ width="100" }](../cooking/beefStew.md)
+- [Cheeseburger ![](../assets/images/cooking/cheeseburger.webp){ width="100" }](../cooking/cheeseburger.md)
+- [Hamburger ![](../assets/images/cooking/hamburger.webp){ width="100" }](../cooking/hamburger.md)
+- [Steak Sub ![](../assets/images/cooking/steakSub.webp){ width="100" }](../cooking/steakSub.md)
+- [Stir Fry ![](../assets/images/cooking/stirFry.webp){ width="100" }](../cooking/stirFry.md)
+</div>
 
 </figure>

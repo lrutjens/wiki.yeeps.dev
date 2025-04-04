@@ -1,6 +1,7 @@
 ---
 hide:
   - toc
+description: How to make a fried egg in yeeps hide and seek
 ---
 <figure markdown="1">
 # Fried Egg
@@ -19,5 +20,11 @@ graph TD
     click POT "../pot"
     click FRIEDEGG "../friedEgg"
 ```
+
+## Used to craft  
+
+<div class="grid cards" markdown>
+- [FriedEggSanwich ![](../assets/images/cooking/friedEggSandwich.webp){ width="100" }](../cooking/friedEggSandwich.md)   
+</div>
 
 </figure>

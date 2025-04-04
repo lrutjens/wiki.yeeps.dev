@@ -1,6 +1,7 @@
 ---
 hide:
   - toc
+description: How to make a grilled cheeese sandwich in yeeps hide and seek
 ---
 <figure markdown="1">
 # Grilled Cheese Sandwich
@@ -32,7 +33,7 @@ graph TD
     click OVEN1 "../oven"
     click BREAD "../bread"
     click OVEN2 "../oven"
-    click GRILLEDCHEESE "../grilledCheseSandwich"
+    click GRILLEDCHEESE "../grilledCheeseSandwich"
 ```
 
 </figure>

@@ -1,6 +1,7 @@
 ---
 hide:
   - toc
+description: How to make cheese in yeeps hide and seek
 ---
 <figure markdown="1">
 # Cheese
@@ -26,6 +27,7 @@ graph TD
 - [Baked Potato ![](../assets/images/cooking/bakedPotato.webp){ width="100" }](../cooking/bakedPotato.md)  
 - [Cheeseburger ![](../assets/images/cooking/cheeseburger.webp){ width="100" }](../cooking/cheeseburger.md)  
 - [Cheese Sandwich ![](../assets/images/cooking/cheeseSandwich.webp){ width="100" }](../cooking/cheeseSandwich.md)  
+- [Fancy Mac & Cheese ![](../assets/images/cooking/fancyMacAndCheese.webp){ width="100" }](../cooking/fancyMacAndCheese.md)
 - [Chicken Parm ![](../assets/images/cooking/chickenParm.webp){ width="100" }](../cooking/chickenParm.md)  
 - [Grilled Cheese Sandwich ![](../assets/images/cooking/grilledCheeseSandwich.webp){ width="100" }](../cooking/grilledCheeseSandwich.md)  
 - [Hawaiian Pizza ![](../assets/images/cooking/hawaiianPizza.webp){ width="100" }](../cooking/hawaiianPizza.md)  

@@ -1,6 +1,7 @@
 ---
 hide:
   - toc
+description: what do berries make in yeeps hide and seek
 ---
 <figure markdown="1">
 # Speed Berries

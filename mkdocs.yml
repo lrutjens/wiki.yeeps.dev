@@ -1,6 +1,6 @@
 site_name: Yeeps Wiki
 site_url: https://wiki.yeeps.dev
-repo_name: lrutjens/yeeps-wiki
+repo_name: lrutjens/wiki.yeeps.dev
 edit_uri: https://github.com/lrutjens/wiki.yeeps.dev/blob/master/docs/
 theme:
   name: material
@@ -73,7 +73,7 @@ markdown_extensions:
 plugins:
   - search
   - git-committers:
-      repository: lrutjens/yeeps-wiki
+      repository: lrutjens/wiki.yeeps.dev
       branch: master
       enabled: !ENV [CI, false]
       token: !ENV MKDOCS_GIT_COMMITTERS_APIKEY

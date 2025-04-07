@@ -188,7 +188,31 @@ nav:
       - Healthy Leaf: brewing/leaf.md
       - Tail: brewing/tail.md
       - Buff Tentacle: brewing/tentacle.md
-
+  - Release Notes:
+    - Overview: releaseNotes/overview.md
+    - Alpha: releaseNotes/alpha.md
+    - Beta: releaseNotes/beta.md
+    - Rockstar Update: releaseNotes/rockstar.md
+    - Snow Biome Update: releaseNotes/snowBiome.md
+    - Grappling Update: releaseNotes/grappling.md
+    - Graduation Update: releaseNotes/graduation.md
+    - Party Update: releaseNotes/party.md
+    - Ocean Update: releaseNotes/ocean.md
+    - Surfing Update: releaseNotes/surfing.md
+    - Wiring Update: releaseNotes/wiring.md
+    - Community Worlds Update: releaseNotes/communityWorlds.md
+    - Halloween Update: releaseNotes/halloween.md
+    - Arena Update: releaseNotes/arena.md
+    - Plush Mini Update: releaseNotes/plush.md
+    - Wishlist Update: releaseNotes/wishlist.md
+    - War Update: releaseNotes/war.md
+    - World Editing Mini Update: releaseNotes/worldEditing.md
+    - Battlecraft Update: releaseNotes/battlecraft.md
+    - Valentines Mini Update: releaseNotes/valentines.md
+    - Fanstasy Update: releaseNotes/fantasy.md
+    - Pets Update: releaseNotes/pets.md
+    - Tuesday Update: releaseNotes/tuesday.md
+    - Barnyard Bonus Update: releaseNotes/barnyard.md
 extra:
   mermaid:
     theme: default

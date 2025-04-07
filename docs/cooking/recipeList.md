@@ -6,7 +6,7 @@ description: How to cook everying in yeeps hide and seek, all the recipes in yee
 
 <figure markdown="1">
 
-<div class="grid cards" markdown>
+<div class="grid cards three-grid" markdown>
 - [Bacon ![](../assets/images/cooking/bacon.webp){ .recipe-item }](../cooking/bacon.md)  
 - [Bagel ![](../assets/images/cooking/bagel.webp){ .recipe-item }](../cooking/bagel.md)  
 - [BLT ![](../assets/images/cooking/blt.webp){ .recipe-item }](../cooking/blt.md)  

@@ -7,14 +7,14 @@ We're still setting things up, so here's a quick look at what's done and what st
 
 | Category             | Status        |
 |----------------------|---------------|
-| **Cooking**          | In progress ⚠️ |
+| **Cooking**          | Completed ✅   |
 | **Brewing**          | Completed ✅   |
 | **Blocks**           | Not started ❌ |
 | **Mechanics**        | Not started ❌ |
 | **Gamemodes**        | Not started ❌ |
 | **Buttcoin Stashes** | Not started ❌ |
 | **Promocodes**       | Not started ❌ |
-| **Update History**   | Not started ❌ |
+| **Update History**   | Completed ✅   |
 | **All Items**        | Not started ❌ |
 | **Tech Webs**        | Not started ❌ |
 

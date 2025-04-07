@@ -34,9 +34,12 @@
 }
 
 .recipe-item{
-    width: 25%;
+    width: 75%;
 }
 
+.round-image{
+    border-radius: 0.5rem !important;
+}
 
 @media (max-width: 500px) {
     .item-image {
@@ -49,4 +52,8 @@
 
 .hidden {
     visibility: hidden !important;
+}
+
+.md-typeset .three-grid {
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr)) !important;
 }

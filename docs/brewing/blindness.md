@@ -13,7 +13,7 @@ description: How to make the blindness potion in yeeps hide and seek
 
 [comment]: <> ( This is a hacky fix to get recipe items to scale correctly (theres something janky with image sizes and classes that i cant figure out) )
 <img src="../../assets/images/hacky-fix.webp" class="item-image hidden janky-fix">
-
+![hacky_fix](../assets/images/hacky-fix.webp){ .item-image .hidden .janky-fix }
 ```mermaid
 graph TD
     classDef hidden visibility: hidden, height: 1px, width: 50px;

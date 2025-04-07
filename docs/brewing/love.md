@@ -13,6 +13,8 @@ When two yeeps drink a [Love Potion](../brewing/love.md), both are pulled togeth
 
 [comment]: <> ( This is a hacky fix to get recipe items to scale correctly (theres something janky with image sizes and classes that i cant figure out) )
 <img src="../../assets/images/hacky-fix.webp" class="item-image hidden janky-fix">
+![hacky_fix](../assets/images/hacky-fix.webp){ .item-image .hidden .janky-fix }
+
 
 ```mermaid
 graph TD

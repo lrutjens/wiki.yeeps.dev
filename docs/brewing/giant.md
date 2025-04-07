@@ -17,14 +17,16 @@ The [Giant Potion](../brewing/giant.md), the opposite of the [Tiny Potion](../br
 ```mermaid
 graph TD
     classDef hidden visibility: hidden, height: 1px, width: 50px;
+    classDef item  height: 5.5rem, width: 5.5rem;
+
     HIDDEN(<img src="../../assets/images/hacky-fix.webp"/>):::hidden
 
-    BREWSHROOM(<img src="../../assets/images/brewing/brewshroom.webp"/>)
-    TALLBREWSHROOM(<img src="../../assets/images/brewing/tallBrewshroom.webp"/>)
-    YELLOWFLOWER(<img src="../../assets/images/brewing/flowerYellow.webp"/>)
-    BONE(<img src="../../assets/images/brewing/bone.webp"/>)
-    CAULDRON(<img src="../../assets/images/brewing/cauldron.webp"/>)
-    POTION(<img src="../../assets/images/brewing/potion.webp"/>)
+    BREWSHROOM(<img src="../../assets/images/brewing/brewshroom.webp"/>):::item
+    TALLBREWSHROOM(<img src="../../assets/images/brewing/tallBrewshroom.webp"/>):::item
+    YELLOWFLOWER(<img src="../../assets/images/brewing/flowerYellow.webp"/>):::item
+    BONE(<img src="../../assets/images/brewing/bone.webp"/>):::item
+    CAULDRON(<img src="../../assets/images/brewing/cauldron.webp"/>):::item
+    POTION(<img src="../../assets/images/brewing/potion.webp"/>):::item
 
     BREWSHROOM -.- HIDDEN
     TALLBREWSHROOM -.- HIDDEN

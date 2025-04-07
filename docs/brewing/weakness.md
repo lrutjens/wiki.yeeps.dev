@@ -17,15 +17,17 @@ The [Weakness Potion](../brewing/weakness.md), the opposite of the [Strength Pot
 ```mermaid
 graph TD
     classDef hidden visibility: hidden, height: 1px, width: 50px;
+    classDef item  height: 5.5rem, width: 5.5rem;
+
     HIDDEN(<img src="../../assets/images/hacky-fix.webp"/>):::hidden
 
-    BREWSHROOM(<img src="../../assets/images/brewing/brewshroom.webp"/>)
-    TALLBREWSHROOM(<img src="../../assets/images/brewing/tallBrewshroom.webp"/>)
-    TALLBREWSHROOM(<img src="../../assets/images/brewing/tallBrewshroom.webp"/>)
-    PURPLEFLOWER(<img src="../../assets/images/brewing/flowerPurple.webp"/>)
-    TENTACLE(<img src="../../assets/images/brewing/tentacle.webp"/>)
-    CAULDRON(<img src="../../assets/images/brewing/cauldron.webp"/>)
-    POTION(<img src="../../assets/images/brewing/potion.webp"/>)
+    BREWSHROOM(<img src="../../assets/images/brewing/brewshroom.webp"/>):::item
+    TALLBREWSHROOM(<img src="../../assets/images/brewing/tallBrewshroom.webp"/>):::item
+    TALLBREWSHROOM(<img src="../../assets/images/brewing/tallBrewshroom.webp"/>):::item
+    PURPLEFLOWER(<img src="../../assets/images/brewing/flowerPurple.webp"/>):::item
+    TENTACLE(<img src="../../assets/images/brewing/tentacle.webp"/>):::item
+    CAULDRON(<img src="../../assets/images/brewing/cauldron.webp"/>):::item
+    POTION(<img src="../../assets/images/brewing/potion.webp"/>):::item
 
     PURPLEFLOWER ==> CAULDRON
     BREWSHROOM -.- HIDDEN

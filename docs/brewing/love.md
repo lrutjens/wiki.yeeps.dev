@@ -19,14 +19,16 @@ When two yeeps drink a [Love Potion](../brewing/love.md), both are pulled togeth
 ```mermaid
 graph TD
     classDef hidden visibility: hidden, height: 1px, width: 50px;
+    classDef item  height: 5.5rem, width: 5.5rem;
+
     HIDDEN(<img src="../../assets/images/hacky-fix.webp"/>):::hidden
 
-    BREWSHROOM(<img src="../../assets/images/brewing/brewshroom.webp"/>)
-    TALLBREWSHROOM(<img src="../../assets/images/brewing/tallBrewshroom.webp"/>)
-    EYEBALL(<img src="../../assets/images/brewing/eyeball.webp"/>)
-    TENTACLE(<img src="../../assets/images/brewing/tentacle.webp"/>)
-    CAULDRON(<img src="../../assets/images/brewing/cauldron.webp"/>)
-    POTION(<img src="../../assets/images/brewing/potion.webp"/>)
+    BREWSHROOM(<img src="../../assets/images/brewing/brewshroom.webp"/>):::item
+    TALLBREWSHROOM(<img src="../../assets/images/brewing/tallBrewshroom.webp"/>):::item
+    EYEBALL(<img src="../../assets/images/brewing/eyeball.webp"/>):::item
+    TENTACLE(<img src="../../assets/images/brewing/tentacle.webp"/>):::item
+    CAULDRON(<img src="../../assets/images/brewing/cauldron.webp"/>):::item
+    POTION(<img src="../../assets/images/brewing/potion.webp"/>):::item
 
     BREWSHROOM -.- HIDDEN
     TALLBREWSHROOM -.- HIDDEN

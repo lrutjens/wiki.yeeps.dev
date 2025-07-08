@@ -23,7 +23,7 @@ graph TD
     BATTER(<img src="../../assets/images/cooking/batter.webp" width="50"/>)
     OVEN2(<img src="../../assets/images/cooking/oven.webp" width="50"/>)
     BAGEL(<img src="../../assets/images/cooking/bagel.webp" width="50"/>)
-    POT3(<img src="../../assets/images/cooking/pot.webp" width="50"/>)
+    OVEN3(<img src="../../assets/images/cooking/oven.webp" width="50"/>)
     PIZZABAGEL(<img src="../../assets/images/cooking/pizzaBagel.webp" width="50"/>)
 
     MILK1 ==> POT1
@@ -38,9 +38,9 @@ graph TD
     POT2 ==> BATTER
     BATTER ==> OVEN2
     OVEN2 ==> BAGEL
-    BAGEL ==> POT3
-    PIZZA ==> POT3
-    POT3 ==> PIZZABAGEL
+    BAGEL ==> OVEN3
+    PIZZA ==> OVEN3
+    OVEN3 ==> PIZZABAGEL
 
     click MILK1 "../MILK1"
     click POT1 "../POT1"
@@ -56,7 +56,7 @@ graph TD
     click BATTER "../batter"
     click OVEN2 "../oven"
     click BAGEL "../bagel"
-    click POT3 "../pot"
+    click OVEN3 "../oven"
     click PIZZABAGEL "../pizzaBagel"
 
 ```

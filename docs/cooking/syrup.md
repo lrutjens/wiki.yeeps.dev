@@ -11,16 +11,16 @@ description: How to make syrup in yeeps hide and seek
 graph TD
     SUGAR1(<img src="../../assets/images/cooking/sugar.webp" width="50"/>)
     SUGAR2(<img src="../../assets/images/cooking/sugar.webp" width="50"/>)
-    POT(<img src="../../assets/images/cooking/pot.webp" width="50"/>)
+    OVEN(<img src="../../assets/images/cooking/oven.webp" width="50"/>)
     SYRUP(<img src="../../assets/images/cooking/syrup.webp" width="50"/>)
 
-    SUGAR1 ==> POT
-    SUGAR2 ==> POT
-    POT ==> SYRUP 
+    SUGAR1 ==> OVEN
+    SUGAR2 ==> OVEN
+    OVEN ==> SYRUP 
 
     click SUGAR1 "../sugar"
     click SUGAR2 "../sugar"
-    click POT "../pot"
+    click OVEN "../oven"
     click SYRUP "../syrup"
 ```
 

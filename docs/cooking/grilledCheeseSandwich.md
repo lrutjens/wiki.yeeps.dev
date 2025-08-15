@@ -15,15 +15,19 @@ graph TD
     FLOUR(<img src="../../assets/images/cooking/flour.webp" width="50"/>)
     OVEN1(<img src="../../assets/images/cooking/oven.webp" width="50"/>)
     BREAD(<img src="../../assets/images/cooking/bread.webp" width="50"/>)
+    POT2(<img src="../../assets/images/cooking/pot.webp" width="50">)
     OVEN2(<img src="../../assets/images/cooking/oven.webp" width="50"/>)
+    CHEESESANDWICH(<img src="../../assets/images/cooking/cheeseSandwich.webp" width="50">)
     GRILLEDCHEESE(<img src="../../assets/images/cooking/grilledCheeseSandwich.webp" width="50"/>)
     
     MILK ==> POT
     POT ==> CHEESE
     FLOUR ==> OVEN1
     OVEN1 ==> BREAD
-    BREAD ==> OVEN2
-    CHEESE ==> OVEN2
+    BREAD ==> POT2
+    CHEESE ==> POT2
+    POT2 ==> CHEESESANDWICH
+    CHEESESANDWICH ==> OVEN2
     OVEN2 ==> GRILLEDCHEESE
 
     click MILK "../milk"

@@ -36,3 +36,16 @@ description: barnyard bonus update release notes for yeeps hide and seek
 - Fixed Content Creator Pet Brush being restricted when it shouldn't be
 - Fixed Content Creator Pet Brush not working towards pet tasks
 - Fixed pets sometimes being unnamable
+<br/>
+
+## v1.25.2 - Barnyard Bonus Update Patch 2
+**Fixes**
+
+- Fixed being able to go through blocks when resetting the map
+- Fixed weird kicking while banned
+<br/>
+
+## v1.25.3 - Barnyard Bonus Update Patch 3
+**Fixes**
+
+- Fixed using clear button to keep potion effects between rooms

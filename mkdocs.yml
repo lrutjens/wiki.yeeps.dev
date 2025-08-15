@@ -213,6 +213,15 @@ nav:
     - Pets Update: releaseNotes/pets.md
     - Tuesday Update: releaseNotes/tuesday.md
     - Barnyard Bonus Update: releaseNotes/barnyard.md
+    - Prop Hunt Update: releaseNotes/propHunt.md
+    - Mall Bonus Update: releaseNotes/mall.md
+    - Cyberwave Update: releaseNotes/cyberwave.md
+    - Construction Drop: releaseNotes/construction.md
+    - Infestation Update: releaseNotes/infestation.md
+    - Preparations Drop: releaseNotes/preparations.md
+    - Yeeps 2.0: releaseNotes/2.0.md
+    - Boss Update: releaseNotes/boss.md
+
 extra:
   mermaid:
     theme: default

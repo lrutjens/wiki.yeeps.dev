@@ -31,6 +31,14 @@ hide:
 - [Pets Update <br/>![](../assets/images/coverArt/pets.webp){ loading=lazy .round-image }](../releaseNotes/pets.md)
 - [Tuesday Update <br/>![](../assets/images/coverArt/normal.webp){ loading=lazy .round-image }](../releaseNotes/tuesday.md)
 - [Barnyard Bonus Update <br/>![](../assets/images/coverArt/barnyard.webp){ loading=lazy .round-image }](../releaseNotes/barnyard.md)
+- [Prop Hunt Update <br/>![](../assets/images/coverArt/propHunt.webp){ loading=lazy .round-image }](../releaseNotes/propHunt.md)
+- [Mall Bonus Update <br/>![](../assets/images/coverArt/mall.webp){ loading=lazy .round-image }](../releaseNotes/mall.md)
+- [Cyberwave Update <br/>![](../assets/images/coverArt/cyberwave.webp){ loading=lazy .round-image }](../releaseNotes/cyberwave.md)
+- [Construction Drop <br/>![](../assets/images/coverArt/construction.webp){ loading=lazy .round-image }](../releaseNotes/construction.md)
+- [Infestation Update <br/>![](../assets/images/coverArt/infestation.webp){ loading=lazy .round-image }](../releaseNotes/infestation.md)
+- [Preparations Drop <br/>![](../assets/images/coverArt/normal.webp){ loading=lazy .round-image }](../releaseNotes/preparations.md)
+- [Yeeps 2.0 <br/>![](../assets/images/coverArt/2.0.webp){ loading=lazy .round-image }](../releaseNotes/2.0.md)
+- [Boss Update <br/>![](../assets/images/coverArt/boss.webp){ loading=lazy .round-image }](../releaseNotes/boss.md)
 
 </div>
 

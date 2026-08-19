@@ -1,6 +1,9 @@
 # Yeeps Wiki
 
-Welcome to the new [Yeeps: Hide and Seek wiki](https://wiki.yeeps.dev)! We're using **Material for MkDocs** to build a better, more up-to-date wiki
+~~Welcome to the new [Yeeps: Hide and Seek wiki](https://wiki.yeeps.dev)! We're using **Material for MkDocs** to build a better, more up-to-date wiki~~
+
+# Please use the [new Yeeps wiki](https://yeeps.wiki.gg). They will be taking over all wiki work, and this repository will just serve as an archive
+
 
 ## Status Overview
 We're still setting things up, so here's a quick look at what's done and what still needs work:

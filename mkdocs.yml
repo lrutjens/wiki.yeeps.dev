@@ -242,3 +242,5 @@ extra:
       name: Yeeps Wiki Team
 extra_css:
   - stylesheets/extra.css
+extra_javascript:
+  - javascripts/new-wiki-banner.js

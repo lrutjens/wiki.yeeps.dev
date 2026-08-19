@@ -57,3 +57,128 @@
 .md-typeset .three-grid {
     grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr)) !important;
 }
+
+.new-wiki-popup-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2000;
+    padding: 1rem;
+}
+
+.new-wiki-popup {
+    position: relative;
+    width: 100%;
+    max-width: 32rem;
+    padding: 2rem;
+    text-align: center;
+    background: var(--md-default-bg-color);
+    color: var(--md-default-fg-color);
+    border-radius: 0.5rem;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.35);
+}
+
+.new-wiki-popup h2 {
+    margin-top: 0;
+    font-size: 1.6rem;
+}
+
+.new-wiki-popup p {
+    font-size: 1.05rem;
+    line-height: 1.5;
+}
+
+.new-wiki-popup-close {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.75rem;
+    padding: 0;
+    font-size: 1.5rem;
+    line-height: 1;
+    color: var(--md-default-fg-color--light);
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.new-wiki-popup-actions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.75rem;
+    margin-top: 1.25rem;
+}
+
+.new-wiki-popup-visit,
+.new-wiki-popup-dismiss {
+    display: inline-block;
+    padding: 0.6rem 1.1rem;
+    font-weight: 600;
+    font-size: 0.95rem;
+    text-decoration: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+.new-wiki-popup-visit {
+    color: var(--md-primary-bg-color);
+    background: var(--md-primary-fg-color);
+    border: none;
+}
+
+.new-wiki-popup-dismiss {
+    color: var(--md-default-fg-color);
+    background: transparent;
+    border: 1px solid var(--md-default-fg-color--lighter);
+}
+
+.new-wiki-footer-banner {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1500;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+    padding: 0.6rem 1rem;
+    color: var(--md-primary-bg-color);
+    background: var(--md-primary-fg-color);
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.new-wiki-footer-banner a {
+    color: inherit;
+    text-decoration: underline;
+}
+
+.new-wiki-footer-banner-cta {
+    padding: 0.3rem 0.75rem;
+    color: var(--md-primary-fg-color) !important;
+    background: var(--md-primary-bg-color);
+    border-radius: 0.25rem;
+    font-weight: 600;
+    white-space: nowrap;
+    text-decoration: none !important;
+}
+
+body.has-new-wiki-banner {
+    padding-bottom: 3.25rem;
+}
+
+@media (max-width: 480px) {
+    body.has-new-wiki-banner {
+        padding-bottom: 4.5rem;
+    }
+}
+
+.md-consent__overlay,
+.md-consent__inner {
+    z-index: 4000;
+}
